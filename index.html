@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service Bot Console</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb bg-orb--one"></div>
+    <div class="bg-orb bg-orb--two"></div>
+    <main class="app">
+      <header class="app__header">
+        <div class="bot-profile">
+          <div class="bot-avatar" aria-hidden="true"></div>
+          <div class="bot-meta">
+            <p class="bot-name">Nova Service Bot</p>
+            <p class="bot-status" id="botStatus">Ready to assist</p>
+          </div>
+        </div>
+      </header>
+
+      <section class="app__content app__content--single">
+        <div class="chat-panel chat-panel--holo">
+          <div class="holo-figure holo-figure--bg" id="holoFigure"></div>
+          <div class="chat-panel__header">
+            <div class="chat-title">
+              <h1>Customer Care Voice Concierge</h1>
+              <button class="call-btn call-btn--inline" id="callBtn" type="button">
+                Call Log
+              </button>
+            </div>
+            <p>
+              Speak a question, and the bot will route to the right data sheet,
+              apply privacy rules, then respond with voice.
+            </p>
+          </div>
+          <div class="chat-stream" id="chatStream">
+            <div class="message message--bot">
+              <p>
+                Hi, I am Nova. Tap Call Log, ask your question, and I will pull
+                the answer from your data sheet.
+              </p>
+            </div>
+          </div>
+          <div class="composer">
+            <button class="ghost-btn" id="demoQuestion" type="button">
+              Try Demo Question
+            </button>
+            <div class="composer__note" id="micStatus">
+              Microphone idle
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
