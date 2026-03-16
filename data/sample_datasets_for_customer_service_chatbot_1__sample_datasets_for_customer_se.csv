@@ -1,0 +1,6 @@
+Order_ID,Product_Name,Status,Payment_Issue,Refund_Status,Notes
+ORD_101,Smartphone,Delivered,None,N/A,Received fake product instead of original.
+ORD_102,Laptop,Returned,None,Not Processed,No refund after return was picked up.
+ORD_103,Headphones,In Transit,None,N/A,Delayed due to weather.
+ORD_104,Sneakers,Delivered,Coupon Failed,N/A,10% discount was not applied at checkout.
+ORD_105,Backpack,Shipped,None,N/A,Where is my order/delivery status?.

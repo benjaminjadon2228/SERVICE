@@ -1,0 +1,4 @@
+BLOCK: credit card
+BLOCK: private discount
+REDACT: customer email
+REDACT: order number

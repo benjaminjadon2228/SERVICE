@@ -1,0 +1,6 @@
+Order_ID,Restaurant,Item,Status,Complaint_Type,Resolution
+ZOM_501,Pizza Hub,Pepperoni Pizza,Cancelled,No Refund,Order cancelled but no money back.
+ZOM_502,Burger King,Whopper Meal,Delivered,Ghost Delivery,Marked delivered but food is missing.
+ZOM_503,Sushi Zen,Salmon Roll,Delivered,Food Quality,Food was stale/cold.
+ZOM_504,Taco Bell,Burrito,Preparing,Location Issue,Driver unable to find the location.
+ZOM_505,Pasta Co.,Lasagna,Rejected,Not Accepted,Restaurant not accepting orders.
